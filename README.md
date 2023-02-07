@@ -1,7 +1,7 @@
 # Unifi Demo
 
 18 Concurrent Sessions   
-4 Real Device Sessions
+8 Real Device Sessions
 
 Runs test on Unifi Site.
 
