@@ -1,0 +1,85 @@
+-------------------------------------------------------------------------------
+Test set: com.unifi.UnifiTest
+-------------------------------------------------------------------------------
+Tests run: 36, Failures: 17, Errors: 0, Skipped: 9, Time elapsed: 326.818 sec <<< FAILURE! - in com.unifi.UnifiTest
+UnifiPageTitle(com.unifi.UnifiTest)  Time elapsed: 16.323 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Unifi - North America&#039;s Largest Provider of Aviation Services] but found [Unifi - North America's Largest Provider of Aviation Services]
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:128)
+
+UnifiPageTitle(com.unifi.UnifiTest)  Time elapsed: 0.848 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Unifi - North America&#039;s Largest Provider of Aviation Services] but found [Unifi - North America's Largest Provider of Aviation Services]
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:128)
+
+UnifiPageTitle(com.unifi.UnifiTest)  Time elapsed: 1.517 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Unifi - North America&#039;s Largest Provider of Aviation Services] but found [Unifi - North America's Largest Provider of Aviation Services]
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:128)
+
+UnifiPageTitle(com.unifi.UnifiTest)  Time elapsed: 2.01 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Unifi - North America&#039;s Largest Provider of Aviation Services] but found [Unifi - North America's Largest Provider of Aviation Services]
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:128)
+
+UnifiPageTitle(com.unifi.UnifiTest)  Time elapsed: 4.725 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Unifi - North America&#039;s Largest Provider of Aviation Services] but found [Unifi - North America's Largest Provider of Aviation Services]
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:128)
+
+UnifiPageTitle(com.unifi.UnifiTest)  Time elapsed: 10.138 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Unifi - North America&#039;s Largest Provider of Aviation Services] but found [Unifi - North America's Largest Provider of Aviation Services]
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:128)
+
+UnifiPageTitle(com.unifi.UnifiTest)  Time elapsed: 2.643 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Unifi - North America&#039;s Largest Provider of Aviation Services] but found [Unifi - North America's Largest Provider of Aviation Services]
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:128)
+
+UnifiPageTitle(com.unifi.UnifiTest)  Time elapsed: 3.167 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Unifi - North America&#039;s Largest Provider of Aviation Services] but found [Appium: Mobile App Automation Made Awesome.]
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:128)
+
+UnifiPageTitle(com.unifi.UnifiTest)  Time elapsed: 2.168 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Unifi - North America&#039;s Largest Provider of Aviation Services] but found [Appium: Mobile App Automation Made Awesome.]
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:128)
+
+UnifiFunc(com.unifi.UnifiTest)  Time elapsed: 16.458 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Infrastructure Error -- The Sauce VMs failed to start the browser or device.
+For more info, please check https://docs.saucelabs.com/dev/error-messages (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 52.60 seconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-2037', ip: 'fe80:0:0:0:e2:15a9:cd5e:95f4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: driver.version: RemoteWebDriver
+	at com.unifi.UnifiTest.createDriver(UnifiTest.java:88)
+	at com.unifi.UnifiTest.UnifiFunc(UnifiTest.java:133)
+
+tearDown(com.unifi.UnifiTest)  Time elapsed: 16.459 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.unifi.UnifiTest.tearDown(UnifiTest.java:110)
+
+UnifiFunc(com.unifi.UnifiTest)  Time elapsed: 17.958 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Values, Vision, Purpose, and Culture - Unifi] but found [Appium: Mobile App Automation Made Awesome.]
+	at com.unifi.UnifiTest.UnifiFunc(UnifiTest.java:135)
+
+UnifiFunc(com.unifi.UnifiTest)  Time elapsed: 35.732 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Values, Vision, Purpose, and Culture - Unifi] but found [Appium: Mobile App Automation Made Awesome.]
+	at com.unifi.UnifiTest.UnifiFunc(UnifiTest.java:135)
+
+UnifiPageTitle(com.unifi.UnifiTest)  Time elapsed: 35.945 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Unifi - North America&#039;s Largest Provider of Aviation Services] but found [Unifi - North America's Largest Provider of Aviation Services]
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:128)
+
+UnifiPageTitle(com.unifi.UnifiTest)  Time elapsed: 36.342 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/90194a4265d64684b0afd3dd6dd20383 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 72.52 seconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-2037', ip: 'fe80:0:0:0:e2:15a9:cd5e:95f4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: driver.version: RemoteWebDriver
+	at com.unifi.UnifiTest.createDriver(UnifiTest.java:88)
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:126)
+
+UnifiPageTitle(com.unifi.UnifiTest)  Time elapsed: 38.882 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Unifi - North America&#039;s Largest Provider of Aviation Services] but found [Unifi - North America's Largest Provider of Aviation Services]
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:128)
+
+UnifiPageTitle(com.unifi.UnifiTest)  Time elapsed: 90.064 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Unifi - North America&#039;s Largest Provider of Aviation Services] but found [Unifi - North America's Largest Provider of Aviation Services]
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:128)
+

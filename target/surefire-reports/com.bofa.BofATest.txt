@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: com.bofa.BofATest
+-------------------------------------------------------------------------------
+Tests run: 27, Failures: 3, Errors: 0, Skipped: 4, Time elapsed: 283.322 sec <<< FAILURE! - in com.bofa.BofATest
+BofAPageTitle(com.bofa.BofATest)  Time elapsed: 32.905 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Infrastructure Error -- The Sauce VMs failed to start the browser or device.
+For more info, please check https://docs.saucelabs.com/dev/error-messages (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 52.95 seconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-2037', ip: 'fe80:0:0:0:1c02:6313:a364:673%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: driver.version: RemoteWebDriver
+	at com.bofa.BofATest.createDriver(BofATest.java:86)
+	at com.bofa.BofATest.BofAPageTitle(BofATest.java:124)
+
+tearDown(com.bofa.BofATest)  Time elapsed: 32.905 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bofa.BofATest.tearDown(BofATest.java:108)
+
+BofAFunc(com.bofa.BofATest)  Time elapsed: 33.523 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Infrastructure Error -- The Sauce VMs failed to start the browser or device.
+For more info, please check https://docs.saucelabs.com/dev/error-messages (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 53.59 seconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-2037', ip: 'fe80:0:0:0:1c02:6313:a364:673%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: driver.version: RemoteWebDriver
+	at com.bofa.BofATest.createDriver(BofATest.java:86)
+	at com.bofa.BofATest.BofAFunc(BofATest.java:131)
+

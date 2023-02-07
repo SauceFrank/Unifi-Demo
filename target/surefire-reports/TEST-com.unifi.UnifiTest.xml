@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.unifi.UnifiTest" time="326.818" tests="36" errors="0" skipped="9" failures="17">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.271-b09"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/frankleyenaar/Data/Sauce/Unifi-Demo"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/frankleyenaar/Data/Sauce/Unifi-Demo"/>
+    <property name="java.runtime.version" value="1.8.0_271-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/9m/s1jh8mnd2vd_9v4r2rgsc1mm0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Library/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/frankleyenaar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Library/apache-maven-3.6.3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.16"/>
+    <property name="library.jansi.path" value="/Library/apache-maven-3.6.3/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/frankleyenaar"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="frankleyenaar"/>
+    <property name="java.class.path" value="/Library/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_271"/>
+    <property name="java.ext.dirs" value="/Users/frankleyenaar/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Library/apache-maven-3.6.3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="UnifiPageTitle" classname="com.unifi.UnifiTest" time="16.323">
+    <failure message="expected [Unifi - North America&amp;#039;s Largest Provider of Aviation Services] but found [Unifi - North America&apos;s Largest Provider of Aviation Services]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Unifi - North America&#039;s Largest Provider of Aviation Services] but found [Unifi - North America's Largest Provider of Aviation Services]
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:128)
+]]></failure>
+    <system-out><![CDATA[WebDriverRemoteWebDriver: internet explorer on WINDOWS (9749f6a23dae4e15bfac66e8acadfa40)
+WebDriverRemoteWebDriver: internet explorer on WINDOWS (60b1df2005e14192897fcd8217cf64ce)
+SauceOnDemandSessionID=9749f6a23dae4e15bfac66e8acadfa40 job-name=UnifiPageTitle
+SauceOnDemandSessionID=60b1df2005e14192897fcd8217cf64ce job-name=UnifiFunc
+WebDriverRemoteWebDriver: msedge on WINDOWS (d97e0705c2324421bdf5823924048239)
+SauceOnDemandSessionID=d97e0705c2324421bdf5823924048239 job-name=UnifiPageTitle
+WebDriverRemoteWebDriver: firefox on ANY (8da3ecccf60c464f926c6592e5278130)
+SauceOnDemandSessionID=8da3ecccf60c464f926c6592e5278130 job-name=UnifiPageTitle
+WebDriverRemoteWebDriver: safari on MAC (9c7b592cd4114e0fb5622cdf585fe7f3)
+SauceOnDemandSessionID=9c7b592cd4114e0fb5622cdf585fe7f3 job-name=UnifiFunc
+WebDriverRemoteWebDriver: Safari on MAC (3d48775ec6d34e26b81aec1e61166153)
+SauceOnDemandSessionID=3d48775ec6d34e26b81aec1e61166153 job-name=UnifiPageTitle
+WebDriverRemoteWebDriver: firefox on ANY (62480090a15148cfb1d6e407a209b1e3)
+SauceOnDemandSessionID=62480090a15148cfb1d6e407a209b1e3 job-name=UnifiFunc
+WebDriverRemoteWebDriver: safari on MAC (0d3ded9ff32243feb6707ca00f92dc8f)
+SauceOnDemandSessionID=0d3ded9ff32243feb6707ca00f92dc8f job-name=UnifiPageTitle
+WebDriverRemoteWebDriver: msedge on WINDOWS (391026814a79446cbe59ae7f284c6889)
+SauceOnDemandSessionID=391026814a79446cbe59ae7f284c6889 job-name=UnifiFunc
+WebDriverRemoteWebDriver: Safari on MAC (0f3643facabb4d89b19894367a1d6fdf)
+WebDriverRemoteWebDriver: firefox on ANY (c4329e3561c8482fa006796f3329407e)
+SauceOnDemandSessionID=0f3643facabb4d89b19894367a1d6fdf job-name=UnifiFunc
+SauceOnDemandSessionID=c4329e3561c8482fa006796f3329407e job-name=UnifiFunc
+WebDriverRemoteWebDriver: firefox on ANY (bb58d97c4f344609936fe115e497100d)
+SauceOnDemandSessionID=bb58d97c4f344609936fe115e497100d job-name=UnifiPageTitle
+]]></system-out>
+    <system-err><![CDATA[Feb 07, 2023 9:50:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Feb 07, 2023 9:50:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Feb 07, 2023 9:50:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Feb 07, 2023 9:50:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Feb 07, 2023 9:50:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Feb 07, 2023 9:50:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Feb 07, 2023 9:50:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Feb 07, 2023 9:50:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Feb 07, 2023 9:50:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Feb 07, 2023 9:50:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Feb 07, 2023 9:50:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Feb 07, 2023 9:50:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="UnifiPageTitle" classname="com.unifi.UnifiTest" time="0.848">
+    <failure message="expected [Unifi - North America&amp;#039;s Largest Provider of Aviation Services] but found [Unifi - North America&apos;s Largest Provider of Aviation Services]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Unifi - North America&#039;s Largest Provider of Aviation Services] but found [Unifi - North America's Largest Provider of Aviation Services]
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:128)
+]]></failure>
+    <system-out><![CDATA[WebDriverRemoteWebDriver: chrome on WINDOWS (5766ce57960842eeab1f5be065360d9a)
+SauceOnDemandSessionID=5766ce57960842eeab1f5be065360d9a job-name=UnifiPageTitle
+WebDriverRemoteWebDriver: chrome on WINDOWS (f28960515ef7446dbb1e1253bd56bc5a)
+SauceOnDemandSessionID=f28960515ef7446dbb1e1253bd56bc5a job-name=UnifiFunc
+]]></system-out>
+    <system-err><![CDATA[Feb 07, 2023 9:50:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Feb 07, 2023 9:50:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="UnifiPageTitle" classname="com.unifi.UnifiTest" time="1.517">
+    <failure message="expected [Unifi - North America&amp;#039;s Largest Provider of Aviation Services] but found [Unifi - North America&apos;s Largest Provider of Aviation Services]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Unifi - North America&#039;s Largest Provider of Aviation Services] but found [Unifi - North America's Largest Provider of Aviation Services]
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:128)
+]]></failure>
+    <system-out><![CDATA[WebDriverRemoteWebDriver: firefox on ANY (a17a8de2e0f34582b9081d059d2b582c)
+SauceOnDemandSessionID=a17a8de2e0f34582b9081d059d2b582c job-name=UnifiPageTitle
+WebDriverRemoteWebDriver: firefox on ANY (e363a0486b5d43be8078d18db90933dd)
+SauceOnDemandSessionID=e363a0486b5d43be8078d18db90933dd job-name=UnifiFunc
+]]></system-out>
+    <system-err><![CDATA[Feb 07, 2023 9:50:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Feb 07, 2023 9:50:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="UnifiPageTitle" classname="com.unifi.UnifiTest" time="2.01">
+    <failure message="expected [Unifi - North America&amp;#039;s Largest Provider of Aviation Services] but found [Unifi - North America&apos;s Largest Provider of Aviation Services]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Unifi - North America&#039;s Largest Provider of Aviation Services] but found [Unifi - North America's Largest Provider of Aviation Services]
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:128)
+]]></failure>
+  </testcase>
+  <testcase name="UnifiPageTitle" classname="com.unifi.UnifiTest" time="4.725">
+    <failure message="expected [Unifi - North America&amp;#039;s Largest Provider of Aviation Services] but found [Unifi - North America&apos;s Largest Provider of Aviation Services]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Unifi - North America&#039;s Largest Provider of Aviation Services] but found [Unifi - North America's Largest Provider of Aviation Services]
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:128)
+]]></failure>
+  </testcase>
+  <testcase name="UnifiPageTitle" classname="com.unifi.UnifiTest" time="10.138">
+    <failure message="expected [Unifi - North America&amp;#039;s Largest Provider of Aviation Services] but found [Unifi - North America&apos;s Largest Provider of Aviation Services]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Unifi - North America&#039;s Largest Provider of Aviation Services] but found [Unifi - North America's Largest Provider of Aviation Services]
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:128)
+]]></failure>
+    <system-out><![CDATA[WebDriverRemoteWebDriver: Chrome on LINUX (11616f11-a9d8-46ba-b9a9-869d890e0fea)
+WebDriverRemoteWebDriver: Chrome on LINUX (038325bc-a5dd-4dd0-a0a3-69419f520d31)
+SauceOnDemandSessionID=11616f11-a9d8-46ba-b9a9-869d890e0fea job-name=UnifiFunc
+SauceOnDemandSessionID=038325bc-a5dd-4dd0-a0a3-69419f520d31 job-name=UnifiPageTitle
+]]></system-out>
+    <system-err><![CDATA[Feb 07, 2023 9:50:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Feb 07, 2023 9:50:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="UnifiPageTitle" classname="com.unifi.UnifiTest" time="2.643">
+    <failure message="expected [Unifi - North America&amp;#039;s Largest Provider of Aviation Services] but found [Unifi - North America&apos;s Largest Provider of Aviation Services]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Unifi - North America&#039;s Largest Provider of Aviation Services] but found [Unifi - North America's Largest Provider of Aviation Services]
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:128)
+]]></failure>
+  </testcase>
+  <testcase name="UnifiPageTitle" classname="com.unifi.UnifiTest" time="3.167">
+    <failure message="expected [Unifi - North America&amp;#039;s Largest Provider of Aviation Services] but found [Appium: Mobile App Automation Made Awesome.]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Unifi - North America&#039;s Largest Provider of Aviation Services] but found [Appium: Mobile App Automation Made Awesome.]
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:128)
+]]></failure>
+    <system-out><![CDATA[WebDriverRemoteWebDriver: safari on MAC (e7241bf0-5e17-4c73-af1a-4c20153fc6c7)
+SauceOnDemandSessionID=e7241bf0-5e17-4c73-af1a-4c20153fc6c7 job-name=UnifiPageTitle
+]]></system-out>
+    <system-err><![CDATA[Feb 07, 2023 9:50:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="UnifiPageTitle" classname="com.unifi.UnifiTest" time="2.168">
+    <failure message="expected [Unifi - North America&amp;#039;s Largest Provider of Aviation Services] but found [Appium: Mobile App Automation Made Awesome.]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Unifi - North America&#039;s Largest Provider of Aviation Services] but found [Appium: Mobile App Automation Made Awesome.]
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:128)
+]]></failure>
+  </testcase>
+  <testcase name="UnifiPageTitle" classname="com.unifi.UnifiTest" time="35.945">
+    <failure message="expected [Unifi - North America&amp;#039;s Largest Provider of Aviation Services] but found [Unifi - North America&apos;s Largest Provider of Aviation Services]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Unifi - North America&#039;s Largest Provider of Aviation Services] but found [Unifi - North America's Largest Provider of Aviation Services]
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:128)
+]]></failure>
+  </testcase>
+  <testcase name="UnifiPageTitle" classname="com.unifi.UnifiTest" time="36.342">
+    <failure message="Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/90194a4265d64684b0afd3dd6dd20383 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 72.52 seconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;SL-2037&apos;, ip: &apos;fe80:0:0:0:e2:15a9:cd5e:95f4%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/90194a4265d64684b0afd3dd6dd20383 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 72.52 seconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-2037', ip: 'fe80:0:0:0:e2:15a9:cd5e:95f4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: driver.version: RemoteWebDriver
+	at com.unifi.UnifiTest.createDriver(UnifiTest.java:88)
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:126)
+</failure>
+  </testcase>
+  <testcase name="UnifiPageTitle" classname="com.unifi.UnifiTest" time="38.882">
+    <failure message="expected [Unifi - North America&amp;#039;s Largest Provider of Aviation Services] but found [Unifi - North America&apos;s Largest Provider of Aviation Services]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Unifi - North America&#039;s Largest Provider of Aviation Services] but found [Unifi - North America's Largest Provider of Aviation Services]
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:128)
+]]></failure>
+  </testcase>
+  <testcase name="UnifiPageTitle" classname="com.unifi.UnifiTest" time="90.064">
+    <failure message="expected [Unifi - North America&amp;#039;s Largest Provider of Aviation Services] but found [Unifi - North America&apos;s Largest Provider of Aviation Services]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Unifi - North America&#039;s Largest Provider of Aviation Services] but found [Unifi - North America's Largest Provider of Aviation Services]
+	at com.unifi.UnifiTest.UnifiPageTitle(UnifiTest.java:128)
+]]></failure>
+  </testcase>
+  <testcase name="UnifiFunc" classname="com.unifi.UnifiTest" time="12.192"/>
+  <testcase name="UnifiFunc" classname="com.unifi.UnifiTest" time="1.134"/>
+  <testcase name="UnifiFunc" classname="com.unifi.UnifiTest" time="2.58"/>
+  <testcase name="UnifiFunc" classname="com.unifi.UnifiTest" time="0.977"/>
+  <testcase name="UnifiFunc" classname="com.unifi.UnifiTest" time="4.803"/>
+  <testcase name="UnifiFunc" classname="com.unifi.UnifiTest" time="4.969"/>
+  <testcase name="UnifiFunc" classname="com.unifi.UnifiTest" time="15.794"/>
+  <testcase name="UnifiFunc" classname="com.unifi.UnifiTest" time="16.458">
+    <failure message="Infrastructure Error -- The Sauce VMs failed to start the browser or device.&#10;For more info, please check https://docs.saucelabs.com/dev/error-messages (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 52.60 seconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;SL-2037&apos;, ip: &apos;fe80:0:0:0:e2:15a9:cd5e:95f4%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Infrastructure Error -- The Sauce VMs failed to start the browser or device.
+For more info, please check https://docs.saucelabs.com/dev/error-messages (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 52.60 seconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SL-2037', ip: 'fe80:0:0:0:e2:15a9:cd5e:95f4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_271'
+Driver info: driver.version: RemoteWebDriver
+	at com.unifi.UnifiTest.createDriver(UnifiTest.java:88)
+	at com.unifi.UnifiTest.UnifiFunc(UnifiTest.java:133)
+</failure>
+    <system-out><![CDATA[WebDriverRemoteWebDriver: safari on MAC (b72f8c7a-6fae-42d4-a134-9e96368f0adb)
+SauceOnDemandSessionID=b72f8c7a-6fae-42d4-a134-9e96368f0adb job-name=UnifiFunc
+]]></system-out>
+    <system-err><![CDATA[Feb 07, 2023 9:51:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="UnifiFunc" classname="com.unifi.UnifiTest" time="17.958">
+    <failure message="expected [Values, Vision, Purpose, and Culture - Unifi] but found [Appium: Mobile App Automation Made Awesome.]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Values, Vision, Purpose, and Culture - Unifi] but found [Appium: Mobile App Automation Made Awesome.]
+	at com.unifi.UnifiTest.UnifiFunc(UnifiTest.java:135)
+</failure>
+  </testcase>
+  <testcase name="UnifiFunc" classname="com.unifi.UnifiTest" time="35.732">
+    <failure message="expected [Values, Vision, Purpose, and Culture - Unifi] but found [Appium: Mobile App Automation Made Awesome.]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Values, Vision, Purpose, and Culture - Unifi] but found [Appium: Mobile App Automation Made Awesome.]
+	at com.unifi.UnifiTest.UnifiFunc(UnifiTest.java:135)
+</failure>
+    <system-out><![CDATA[WebDriverRemoteWebDriver: Chrome on LINUX (130a77f1-2f0f-40c8-8d9d-c71e236e9f5c)
+SauceOnDemandSessionID=130a77f1-2f0f-40c8-8d9d-c71e236e9f5c job-name=UnifiFunc
+WebDriverRemoteWebDriver: Chrome on LINUX (738f81c4-42be-4871-9595-65a35d72860a)
+SauceOnDemandSessionID=738f81c4-42be-4871-9595-65a35d72860a job-name=UnifiPageTitle
+WebDriverRemoteWebDriver: safari on MAC (d91470fb-e094-446f-b76e-6d15fec28e5b)
+SauceOnDemandSessionID=d91470fb-e094-446f-b76e-6d15fec28e5b job-name=UnifiFunc
+]]></system-out>
+    <system-err><![CDATA[Feb 07, 2023 9:51:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Feb 07, 2023 9:51:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Feb 07, 2023 9:51:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="UnifiFunc" classname="com.unifi.UnifiTest" time="50.664"/>
+  <testcase name="UnifiFunc" classname="com.unifi.UnifiTest" time="68.789"/>
+  <testcase name="UnifiFunc" classname="com.unifi.UnifiTest" time="287.863"/>
+  <testcase name="tearDown" classname="com.unifi.UnifiTest" time="16.459">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.unifi.UnifiTest.tearDown(UnifiTest.java:110)
+</failure>
+  </testcase>
+  <testcase name="tearDown" classname="com.unifi.UnifiTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.unifi.UnifiTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.unifi.UnifiTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.unifi.UnifiTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.unifi.UnifiTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.unifi.UnifiTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.unifi.UnifiTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.unifi.UnifiTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.unifi.UnifiTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
